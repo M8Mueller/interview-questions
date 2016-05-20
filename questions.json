@@ -1,0 +1,22 @@
+{
+	"verbal": {
+		"question_0": {
+			"text": "What is the significance, and what are the benefits, of including 'use strict' at the beginning of a JavaScript source file?",
+			"key_0": "Makes debugging easier",
+			"key_1": "Precents accidental globals",
+			"key_2": "Eliminates this coercion",
+			"key_3": "Disallows duplicate property names or parameter values",
+			"key_4": "Makes eval() safer",
+			"key_5": "Throws error on individual usage of delete"
+		}
+	},
+	"code": {
+		"question_0": {
+			"text": "Consider the attached code snippet. What will be printed on the console, and why?",
+			"code": "(function() {var a = b = 5;})();console.log(b);",
+			"key_0": "The code prints 5",
+			"key_1": "b is assigned to the global scope",
+			"key_2": "It doesn't use strict mode"
+		}
+	}
+}
